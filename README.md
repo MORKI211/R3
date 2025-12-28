@@ -111,9 +111,7 @@ PRs welcome! See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
-## Logo ideas dla R3:
 
-### Minimalist:
 ```
  ██████╗ ██████╗ 
  ██╔══██╗╚════██╗
@@ -123,15 +121,6 @@ PRs welcome! See [CONTRIBUTING.md](CONTRIBUTING.md)
  ╚═╝  ╚═╝╚═════╝ 
 ```
 
-### Matrix style:
-```
-[R][3] -> NETWORK_UNLOCK
-```
-
-### Simple:
-```
-R³
-```
 
 ---
 
