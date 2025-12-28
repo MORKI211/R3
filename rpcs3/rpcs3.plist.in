@@ -7,15 +7,15 @@
 	<key>CFBundleExecutable</key>
 	<string>rpcs3</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Open-source Sony PlayStation 3 emulator</string>
+	<string>Network-enhanced PS3 emulator for research</string>
 	<key>CFBundleIconFile</key>
 	<string>rpcs3.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>net.rpcs3.rpcs3</string>
+	<string>com.github.morki211.r3</string>
 	<key>CFBundleLongVersionString</key>
 	<string>${RPCS3_GIT_TAG}</string>
 	<key>CFBundleName</key>
-	<string>RPCS3</string>
+	<string>R3</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

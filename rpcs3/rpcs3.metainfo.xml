@@ -1,37 +1,33 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!-- Copyright 2018 RPCS3 -->
+<!-- Copyright 2025 R3 Project (Based on RPCS3) -->
 <component type="desktop">
     <!--Created with jdAppStreamEdit 8.0-->
-    <id>net.rpcs3.RPCS3</id>
-    <name>RPCS3</name>
-    <summary>Open-source Sony PlayStation 3 Emulator</summary>
-    <summary xml:lang="de">Quelloffener Sony PlayStation 3 Emulator</summary>
-    <developer_name>RPCS3 Developers</developer_name>
+    <id>com.github.morki211.r3</id>
+    <name>R3</name>
+    <summary>Network-Enhanced PS3 Emulator for Research</summary>
+    <summary xml:lang="de">Netzwerkverbesserter PS3-Emulator für Forschung</summary>
+    <developer_name>R3 Project (Based on RPCS3)</developer_name>
     <launchable type="desktop-id">rpcs3.desktop</launchable>
     <metadata_license>FSFAP</metadata_license>
     <project_license>GPL-2.0-only</project_license>
     <description>
-        <p>RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem.
-The emulator is currently capable of running over 2500 commercial titles powered by Vulkan and OpenGL.</p>
-        <p xml:lang="de">RPCS3 ist ein experimenteller, quelloffener Emulator und Debugger für die Sony PlayStation 3, der in C++ für Windows und Linux entwickelt wurde. Die Entwicklung von RPCS3 begann im Mai 2011 durch seine Gründer DH und Hykem. Der Emulator ist derzeit in der Lage, über 2500 kommerzielle Titel mit Vulkan und OpenGL auszuführen.</p>
-        <p>The goal of this project is to experiment, research, and educate on the topic of PlayStation 3 emulation that can be performed on compatible devices and operating systems.
-All information was obtained legally by purchasing PlayStation 3 hardware and software. Additional information was obtained from various sources on the internet that include but is not limited to system hardware and software documentation.
-Most of this information can be found on the PlayStation 3 Developer Wiki.</p>
-        <p xml:lang="de">Das Ziel dieses Projekts besteht darin, auf dem Gebiet der PlayStation 3 Emulation auf kompatiblen Geräten und Betriebssystemen zu experimentieren, zu forschen und Wissen zu vermitteln. Alle Informationen wurden legal durch den Kauf von PlayStation 3 Hardware und Software erlangt. Zusätzliche Informationen wurden aus verschiedenen Quellen im Internet bezogen, einschließlich, aber nicht beschränkt auf System-Hardware- und Software-Dokumentation. Die meisten dieser Informationen sind im PlayStation 3 Developer Wiki zu finden.</p>
+        <p>R3 is a network-enhanced fork of RPCS3 designed for reverse engineering and custom server development. It adds powerful network interception capabilities for game preservation and research.</p>
+        <p xml:lang="de">R3 ist ein netzwerkverbesserter Fork von RPCS3, der für Reverse Engineering und die Entwicklung benutzerdefinierter Server entwickelt wurde. Es fügt leistungsstarke Netzwerk-Interception-Funktionen für Spieleerhaltung und Forschung hinzu.</p>
+        <p>WARNING: R3 is NOT recommended for regular gaming. For the best PS3 emulation experience, use mainline RPCS3. R3 is a specialized research tool that disables SSL certificate validation and adds network interception features.</p>
+        <p>The goal of this project is to enable game preservation by allowing researchers to create custom servers for discontinued online games. Based on RPCS3, developed by DH, Hykem, and the RPCS3 team.</p>
+        <p xml:lang="de">WARNUNG: R3 wird NICHT für normales Gaming empfohlen. Für die beste PS3-Emulationserfahrung verwenden Sie das Haupt-RPCS3. R3 ist ein spezialisiertes Forschungstool, das die SSL-Zertifikatsvalidierung deaktiviert und Netzwerk-Interception-Funktionen hinzufügt.</p>
     </description>
     <screenshots>
         <screenshot type="default">
-            <caption>RPCS3 running a game using the Vulkan backend</caption>
+            <caption>R3 - Network-enhanced PS3 emulator for research</caption>
             <image type="source">https://rpcs3.net/blog/wp-content/uploads/2017/05/progress/vklinux.jpg</image>
         </screenshot>
     </screenshots>
-    <url type="homepage">https://rpcs3.net</url>
-    <url type="bugtracker">https://github.com/RPCS3/rpcs3/issues</url>
-    <url type="faq">https://rpcs3.net/faq</url>
-    <url type="help">https://rpcs3.net/quickstart</url>
-    <url type="donation">https://www.patreon.com/Nekotekina</url>
-    <url type="vcs-browser">https://github.com/RPCS3/rpcs3</url>
-    <url type="contribute">https://github.com/RPCS3/rpcs3#contributing</url>
+    <url type="homepage">https://github.com/MORKI211/R3</url>
+    <url type="bugtracker">https://github.com/MORKI211/R3/issues</url>
+    <url type="help">https://github.com/MORKI211/R3</url>
+    <url type="vcs-browser">https://github.com/MORKI211/R3</url>
+    <url type="contribute">https://github.com/MORKI211/R3#contributing</url>
     <categories>
         <category>Game</category>
         <category>Emulator</category>

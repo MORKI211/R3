@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=Application
-Name=RPCS3
-GenericName=PlayStation 3 Emulator
-Comment=An open-source PlayStation 3 emulator/debugger written in C++.
+Name=R3
+GenericName=Network-Enhanced PS3 Emulator
+Comment=Network-enhanced RPCS3 fork for reverse engineering and custom servers
 Icon=rpcs3
 TryExec=rpcs3
 Exec=rpcs3 %f
 Terminal=false
 Categories=Game;Emulator;
-Keywords=PS3;Playstation;
+Keywords=PS3;Playstation;R3;Network;
 StartupWMClass=rpcs3

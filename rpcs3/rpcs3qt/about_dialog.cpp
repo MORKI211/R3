@@ -15,21 +15,20 @@ about_dialog::about_dialog(QWidget* parent) : QDialog(parent), ui(new Ui::about_
 
 	ui->close->setDefault(true);
 	ui->icon->load(QStringLiteral(":/rpcs3.svg"));
-	ui->version->setText(tr("RPCS3 Version: %1").arg(QString::fromStdString(rpcs3::get_verbose_version())));
+	ui->version->setText(tr("R3 Version: %1").arg(QString::fromStdString(rpcs3::get_verbose_version())));
 	ui->description->setText(gui::utils::make_paragraph(tr(
-		"RPCS3 is an open-source Sony PlayStation 3 emulator and debugger.\n"
-		"It is written in C++ for Windows, Linux, FreeBSD and MacOS, funded with %0.\n"
-		"Our developers and contributors are always working hard to ensure this project is the best that it can be.\n"
-		"There are still plenty of implementations to make and optimizations to do.")
-		.arg(gui::utils::make_link(tr("Patreon"), "https://rpcs3.net/patreon"))));
+		"R3 is a network-enhanced fork of RPCS3 designed for reverse engineering and custom server development.\n"
+		"Based on the excellent RPCS3 emulator, R3 adds powerful network interception capabilities.\n"
+		"This fork is for game preservation and research purposes only.\n"
+		"For regular PS3 emulation, please use mainline RPCS3."));
 
 	// Events
-	connect(ui->gitHub, &QPushButton::clicked, [] { QDesktopServices::openUrl(QUrl("https://www.github.com/RPCS3")); });
-	connect(ui->website, &QPushButton::clicked, [] { QDesktopServices::openUrl(QUrl("https://rpcs3.net")); });
-	connect(ui->forum, &QPushButton::clicked, [] { QDesktopServices::openUrl(QUrl("https://forums.rpcs3.net")); });
-	connect(ui->patreon, &QPushButton::clicked, [] { QDesktopServices::openUrl(QUrl("https://rpcs3.net/patreon")); });
-	connect(ui->discord, &QPushButton::clicked, [] { QDesktopServices::openUrl(QUrl("https://discord.gg/rpcs3")); });
-	connect(ui->wiki, &QPushButton::clicked, [] { QDesktopServices::openUrl(QUrl("https://wiki.rpcs3.net/index.php?title=Main_Page")); });
+	connect(ui->gitHub, &QPushButton::clicked, [] { QDesktopServices::openUrl(QUrl("https://github.com/MORKI211/R3")); });
+	connect(ui->website, &QPushButton::clicked, [] { QDesktopServices::openUrl(QUrl("https://github.com/MORKI211/R3")); });
+	connect(ui->forum, &QPushButton::clicked, [] { QDesktopServices::openUrl(QUrl("https://github.com/MORKI211/R3/discussions")); });
+	connect(ui->patreon, &QPushButton::clicked, [] { QDesktopServices::openUrl(QUrl("https://rpcs3.net")); });  // Original RPCS3
+	connect(ui->discord, &QPushButton::clicked, [] { QDesktopServices::openUrl(QUrl("https://discord.gg/rpcs3")); });  // Original RPCS3
+	connect(ui->wiki, &QPushButton::clicked, [] { QDesktopServices::openUrl(QUrl("https://wiki.rpcs3.net/index.php?title=Main_Page")); });  // Original RPCS3
 	connect(ui->close, &QPushButton::clicked, this, &QWidget::close);
 }
 
